@@ -2,13 +2,13 @@
 #include <Wire.h>
 
 // Ultrasonic setup
-const int numUltras = 4;
+const int numUltras = 5;
 HCSR04 ultrasonics[numUltras] = {
-  {7, 2},
-  {8, 3},
-  {9, 4},
-  {10, 5}
-  //{11, 6}
+  {10, 11},
+  {8, 9},
+  {6, 7},
+  {4, 5}
+  {2, 3}
 };
 int distances[numUltras];
 
